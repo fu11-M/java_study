@@ -159,7 +159,7 @@ public class QueueEx1 {
 				}else if(input.equalsIgnoreCase("help")) {
 					System.out.println(" help - 도움말을 보여줍니다.");
 					System.out.println(" q 또는 Q - 프로그램을 종료합니다.");
-					System.out.println(" hostory - 최근에 입력한 명령어를" + MAX_SIZE + "개 보여줍니다.");
+					System.out.println(" hostory - 최근에 입력한 명령어를" + MAX_ SIZE + "개 보여줍니다.");
 					
 				}else if(input.equalsIgnoreCase("history")) {
 					int i = 0;
