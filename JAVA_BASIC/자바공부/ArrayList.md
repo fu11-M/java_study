@@ -14,7 +14,7 @@ ArrayList는 Object배열을 이용해서 데이터를 순차적으로 저장한
 
 **ArrayList의 소스코드 일부**
 
-```jsx
+```java
 public class ArrayList extends AbstactList implements List, RandomAccess, Cloneable, java.io.Serializable{
 	transient Object[] elementData;
 }
